@@ -1,7 +1,7 @@
 # QA Engineer Assessment
 <a name="readme-top"></a>
 ## UI Automation
-* Prerequisite: Register as a user on the website.[https://juice-shop.herokuapp.com/#/]
+* Prerequisite: Register as a user on the [website](https://juice-shop.herokuapp.com/#/)_
 ### Test scenario 01:
 1. Login with the user that you just registered. Assert the user is registered with the same email address.
 2. Using search, add 2 different items to the basket, one item with one unit, another one with 2 units.  
