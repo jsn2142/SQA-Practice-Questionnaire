@@ -1,17 +1,16 @@
 # QA Engineer Assessment
+<a name="readme-top"></a>
 ## UI Automation
 * Prerequisite: Register as a user on the website.[https://juice-shop.herokuapp.com/#/]
 ### Test scenario 01:
-   ```sh
-   1. Login with the user that you just registered. Assert the user is registered with the same email address.
-   2. Using search, add 2 different items to the basket, one item with one unit, another one with 2 units. 
-   3. Assert the items available in the basket with the units and prices.
-   4. Click on checkout. Add a new address and select the added address to continue.
-   5. For Delivery, select “Standard Delivery” and assert that the next page is shown afterwards.
-   6. In the Payment Options, add a new card and after adding it, select the card and proceed to the next page.
-   7. For the Order Summary page, assert with the total price of the selected items and their price.
-   8. After placing the order, confirm the delivery address for assertion.
-   ```
+1. Login with the user that you just registered. Assert the user is registered with the same email address.
+2. Using search, add 2 different items to the basket, one item with one unit, another one with 2 units.  
+3. Assert the items available in the basket with the units and prices.
+4. Click on checkout. Add a new address and select the added address to continue.
+5. For Delivery, select “Standard Delivery” and assert that the next page is shown afterwards.
+6. In the Payment Options, add a new card and after adding it, select the card and proceed to the next page.
+7. For the Order Summary page, assert with the total price of the selected items and their price.
+8. After placing the order, confirm the delivery address for assertion.
 
 ### Test scenario 02:
 1. Login as the user, search for the items that you order earlier. Verify that the items are shown properly after search.
@@ -31,10 +30,11 @@ n.b. Do this for both products one after another.
 5. Delete the last item from the basket. Verify the remaining two items in the basket with the correct quantity.
 
 ## Notes:
-You are free to use any automation tool/framework for the UI and API automation(i.e. Cypress, Selenium, WebdriverIO, Postman, etc)
-Be creative with the assertions, as long as it makes sense.
-Make sure to generate a report in your automation script.
-Upon completion, upload the code in your Github repository, submit the link in the reply. Keep the repo public.
+* You are free to use any automation tool/framework for the UI and API automation(i.e. Cypress, Selenium, WebdriverIO, Postman, etc)
+* Be creative with the assertions, as long as it makes sense.
+* Make sure to generate a report in your automation script.
+* Use reuseable functions for the scripts.
+* Upon completion, upload the code in your Github repository, submit the link in the reply. Keep the repo public.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
