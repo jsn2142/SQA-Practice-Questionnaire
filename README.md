@@ -1,7 +1,9 @@
 # QA Engineer Assessment
 <a name="readme-top"></a>
+Please read all the instructions below to prepare for the assessment.
 ## UI Automation
-* Prerequisite: Register as a user on the [website](https://juice-shop.herokuapp.com/#/)_
+* Prerequisite: Register as a user on the [website](https://juice-shop.herokuapp.com/#/).
+
 ### Test scenario 01:
 1. Login with the user that you just registered. Assert the user is registered with the same email address.
 2. Using search, add 2 different items to the basket, one item with one unit, another one with 2 units.  
@@ -22,6 +24,7 @@ n.b. Do this for both products one after another.
 1. Login with the user. 
 2. Add 2 items to the basket, with one having 2 units and another having 3 units.
 3. Verify the items with the unit quantity in the basket.
+
 ### Test scenario 02: 
 1. Register a new user.
 2. Login with this new user.
@@ -35,6 +38,6 @@ n.b. Do this for both products one after another.
 * Make sure to generate a report in your automation script.
 * Use reuseable functions for the scripts.
 * Upon completion, upload the code in your Github repository, submit the link in the reply. Keep the repo public.
-
+* Add screen recordings of all the automation tests along with the Github Repository link.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
